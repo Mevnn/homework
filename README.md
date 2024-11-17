@@ -18,7 +18,7 @@ Usage
 http://localhost:8501/
 
 nb: The application is also available on streamlit cloud following the link below :
-git-dashboard-meven.streamlit.app
+https://git-dashboard-meven.streamlit.app/
 
 
 
