@@ -16,6 +16,7 @@ def test_find_most_common_word_empty_string():
     assert word == ""
     assert count == 0
 
+
 def test_fetch_data_with_sucess():
     URL = "https://api.github.com/users/torvalds/repos"
     response = fetch_data(URL)

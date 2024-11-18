@@ -1,4 +1,5 @@
 """ main app """
+
 import matplotlib.pyplot as plt
 import pandas as pd
 import streamlit as st
@@ -10,7 +11,7 @@ from gitdashboard_app.utils import fetch_data, find_most_common_word
 @st.cache_data
 def get_data(url):
     """("call the function fetch_data from gitdashboard_app.utils "
-       "with the url of the endpoint as param)"""
+    "with the url of the endpoint as param)"""
     return fetch_data(url)
 
 
