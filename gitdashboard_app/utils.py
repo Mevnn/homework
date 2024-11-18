@@ -8,7 +8,7 @@ import streamlit as st
 
 def fetch_data(url):
     "Fetch data from the endpoint from the url parameter"
-    response = requests.get(url, timeout= 5)
+    response = requests.get(url, timeout=5)
     if response.status_code == 200:
         return response
     st.write(f"Error, the API returned the following error: {response.status_code}")
